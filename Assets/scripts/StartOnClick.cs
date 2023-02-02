@@ -6,9 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class StartOnClick : MonoBehaviour
 {
-
+    public AudioSource btnAudio;
+    
     public void Clicked()
     {
+        DontDestroyOnLoad(this);
+        btnAudio.Play();
         SceneManager.LoadScene("Play");
     }
 
