@@ -1,1 +1,1 @@
-# Galaga in Unity
+# Galaga in Unity.
